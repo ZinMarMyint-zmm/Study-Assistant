@@ -1,4 +1,4 @@
-const API_URL = "https://study-assistant-api-m78y.onrender.com/";
+const API_URL = "https://study-assistant-api-m78y.onrender.com";
 
 export async function getTasks() {
     const res = await fetch(`${API_URL}/tasks`)
